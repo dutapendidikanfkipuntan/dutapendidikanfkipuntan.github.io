@@ -1,0 +1,79 @@
+/* style.css - Custom CSS untuk website Bootstrap organisasi */
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #f8fafc;
+}
+
+.navbar {
+  letter-spacing: 1px;
+}
+
+.navbar-brand {
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+}
+
+.hero-section {
+  background-image: url('assets/5.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 80px 0 60px 0;
+}
+
+.hero-section img {
+  border: 4px solid #fff;
+}
+
+section {
+  scroll-margin-top: 70px;
+}
+
+.card {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.card:hover {
+  transform: translateY(-7px) scale(1.03);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.11);
+}
+
+.navbar {
+  background-color: #fdc10d;
+}
+
+
+/* Responsive tweaks */
+@media (max-width: 767px) {
+  .hero-section {
+    padding: 50px 0 30px 0;
+  }
+  .navbar-brand {
+    font-size: 1.1rem;
+  }
+}
+
+.main-color {
+  background-color: #fdc10d;
+  color: #fff;
+  border-color: #fdc10d;
+}
+
+/* Custom button style */
+.btn-primary {
+  background: linear-gradient(90deg, #fdc10d 70%, #ffd043 100%);
+  border: none;
+}
+.btn-primary:hover {
+  background: #ffd043;
+}
+
+.btn-outline-primary {
+  color: #fdc10d;
+  border-color: #fdc10d;
+}
+.btn-outline-primary:hover {
+  background-color: #fdc10d;
+  border-color: #fdc10d;
+  color: #fff;
+}
